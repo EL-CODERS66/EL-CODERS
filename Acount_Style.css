@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 0.5vw;
+  background-color: black;
+  color: black;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(52,53,221,1);
+  color:  rgba(52,53,221,1);
+}
+body {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.UDD_LB {
+  width: 100%;
+  text-align: center;
+  background-color: rgba(39, 48, 189, 1.0);
+  height: 10vh;
+  margin-bottom: 5vh;
+}
+.UDD_L {
+  height: 90%;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.AcountDDLabel {
+  color: white;
+  font-family: sans-serif;
+  background-color: rgba(39, 48, 189, 1.0);
+  width: 100%;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 40px;
+}
+
+.ACT {
+  font-family: sans-serif;
+  width: 100%;
+  text-align: centera;
+  font-size: 7.5vh;
+  margin-bottom: 5vh;
+}
+.ACS {
+  margin-bottom: 10vh;
+}
+.AC {
+  height: 10vh;
+  width: 54%;
+  padding-left: 1%;
+  padding-right: 5%;
+  background-color: rgba(255, 255, 255, 1.0);
+  border-radius: 1vh;
+  border-color: rgba(0, 0, 0, 1.0);
+  border-width: 2px;
+  border-style: solid;
+  line-height: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.2s;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1vh;
+}
+.AC:hover {
+  background-color: rgba(39, 48, 189, 1.0);
+  color: white;
+}
+/*.AC {
+  height: 10vh;
+  width: 55%;
+  padding-right: 5%;
+  background-color: rgba(255, 255, 255, 1.0);
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 1);
+  border-width: 2px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  line-height: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.2s;
+  display: flex;
+  justify-content: space-between;
+}*/
+
+
+
+
+@media only screen and (max-width: 1150px) { /*1150px*/
+
+
+
+}
