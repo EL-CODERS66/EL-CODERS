@@ -6,9 +6,9 @@ html {
 hr {
   width: 70%;
   margin-left: 15%;
-  background-color: black;
-  color: black;
-  border-color: black;
+  background-color: rgba(9,255,120,1);
+  color: rgba(9,255,120,1);
+  border-color: rgba(9,255,120,1);
   border-style: solid;
   border-width: medium;
   border-radius: 10000px;
@@ -25,15 +25,15 @@ hr {
   color: black;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(52,53,221,1);
-  color:  rgba(52,53,221,1);
+  background-color: rgba(9,255,120,1);
+  color:  rgba(9,255,120,1);
 }
 
 
 .SideMenu {
 width: 400px;
 height: 100%;
-background-color: rgba(52,53,221, 1.0);
+background-color: rgba(9,255,120,1);
 position: fixed;
 top: 0;
 right: -400px;
@@ -46,15 +46,18 @@ height: 100%;
 background-color: rgba(0,0,0, 0.95);
 position: fixed;
 top: 0;
-left: -100%;
-z-index: 999;
-transition: left 0.1s ease;
+opacity: 0;
+z-index: -99999;
+transition: 0.3s;
+display: block;
 }
 #SideMenu.ShowenSideMenu {
 right: 0;
 }
 #overlayer.ShowenSideMenu {
-left: 0;
+opacity: 1;
+z-index: 999;
+
 }
 
 .SMlogo {
@@ -67,13 +70,13 @@ left: 0;
   height: 12%;
   font-size: clamp(16px, 24px, 32px);
   background-color: rgba(0, 0, 0, 0);
-  color: white;
+  color: black;
   border-style: none;
 }
 
 
 .body {
-  background-color: rgb(244, 244, 244);
+  background-color: rgb(22, 22, 22);
   padding: 0px;
   margin: 0px;
 }
@@ -83,9 +86,8 @@ left: 0;
     top: 0;
     left: 0;
     position: absolute;
-  background-color: #09FF78;
-  transparency: 0.5;
-  background-image: url(https://websitedemos.net/digital-marketing-agency-04/wp-content/uploads/sites/865/2021/05/digital-marketing-agency-hero-img-bg-overlay.svg);
+  background-color: rgba(9,200,100,0.5);
+  background-image: url(https://i.postimg.cc/xd6mLyWG/digital-marketing-agency-hero-img-bg-overlay.png);
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: 50vw auto;
@@ -93,8 +95,8 @@ left: 0;
   transform: scaleX(-1);
 }
 .Main {
-  background-color: #09FF78;
-  background-image: url(https://i.postimg.cc/CMsdVz4T/Premium-Photo-Top-view-of-workspace-with-laptop-coffee-cup-notebooks-and-copy-space.jpg);
+  background-color: rgba(9,200,100,0.5);
+  background-image: url(MBG.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -141,16 +143,17 @@ left: 0;
   transform: scaleX(-1);
   width: 50vw;
   margin-right: 50vw;
+  margin-top: 5vh;
   
 }
 .login {
   height: 5vw;
   width: 20vw;
   font-size: 2vw;
-  background-color: rgba(52,53,221,1);
+  background-color: rgba(9,255,120,1);
   border-style: solid;
-  border-color: rgba(52,53,221,1);
-  color: white;
+  border-color: rgba(9,255,120,1);
+  color: black;
   border-width: medium;
   border-radius: 1vw;
 }
@@ -173,7 +176,7 @@ left: 0;
   width: 100%;
   text-align: right;
   font-size: 7vw;
-  color: white;
+  color: #000000;
   line-height: 1.125em;
     transform: scaleX(-1);
     margin-left: 5vw;
@@ -191,10 +194,9 @@ left: 0;
   z-index: 10;
   text-align: center;
   font-size: 4.5vw;
-  color: black;
+  color: white;
   margin-top: -40vh;
   margin-top: 0%;
-  color: rgba(22,22,22,1);
 }
 .WhyDiv {
   width: 100%;
@@ -207,7 +209,7 @@ text-align: ;
 .WhyBox {
   width: 250px;
   height: 400px;
-  background-color: #FFFFFF;
+  background-color: rgba(33,33,33,1);
 justify-content: center;
 border-radius: 1vw;
 text-align: center;
@@ -219,18 +221,21 @@ margin-bottom: 5%;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     margin-left: 10px;
   margin-right: 10px;
+  margin-top: 5vh;
 }
 .WDT {
 width: 80%;
 margin-left: 10%;
 text-align: center;
 margin-top: -40px;
+color: white;
 }
 .WDP {
 width: 90%;
 margin-left: 5%;
 text-align: center;
-margin-top: -10px;
+margin-top: 5px;
+color: white;
 }
 .TC {
   height: 100px;
@@ -239,7 +244,7 @@ margin-top: -10px;
   background-color: black;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgba(52,53,221,1);
+  background-color: rgba(9,255,120,1);
   text-align: center;
   border-style: none;
   border-color: black;
@@ -250,10 +255,10 @@ margin-top: -10px;
 
 }
 .TCT {
-  color: white;
+  color: black;
   text-align: center;
   font-size: 42px;
-  margin-top: 5px;
+  line-height: 100px;
 }
 
 
@@ -270,10 +275,10 @@ margin-top: -10px;
 .CourseBtn {
   height: 10%;
   width: 80%;
-  background-color: rgba(52,53,221,1);
+  background-color: rgba(9,255,120,1);
   border-style: solid;
-  border-color: rgba(52,53,221,1);
-  color: white;
+  border-color: rgba(9,255,120,1);
+  color: #000000;
   border-width: medium;
   border-radius: 1vw;
   margin-top: 10%;
@@ -308,7 +313,7 @@ margin-bottom: 5%;
   font-size: 4.5vw;
   color: black;
   margin-top: 5vh;
-  color: rgba(22,22,22,1);
+  color: white;
 }
 .courses {
   width: 40vw;
@@ -361,17 +366,35 @@ text-align: center;
 .FormButton {
     border-radius: 20px;
     border-style: none;
-    background-color: rgba(52,53,221,1);
-    color: #FFFFFF;
+    background-color: rgba(9,255,120,1);
+    color: #000000;
     font-size: 12px;
     font-weight: bold;
     padding: 12px 45px;
     letter-spacing: 1px;
     text-transform: uppercase;
     transition: transform 80ms ease-in;
+    width: 90%;
+    margin-bottom: 0px;
+}
+.FormButton2 {
+    border-radius: 20px;
+    border-style: none;
+    width: 90%;
+    background-color: rgba(9,255,120,0);
+    color: rgba(9,255,120,1);
+    border-style: solid;
+    border-color: rgba(9,255,120,1);
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    margin-top: -25px;
 }
 .SignandSignUpInform {
-    background-color: #FFFFFF;
+    background-color: rgba(33, 33, 33, 1.0);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -382,9 +405,10 @@ text-align: center;
   justify-content: space-around;
 }
 .FormInput {
-    background-color: #eee;
+    background-color: rgba(22, 22, 22, 1.0);
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
+    border-color: rgba(22, 22, 22, 1.0);
     padding: 12px 15px;
     margin: 8px 0;
     width: 100%;
@@ -413,15 +437,28 @@ text-align: center;
 }
 
 
-
-
-
-.Contacts-Div {
+.Contact-Div {
   width: 100%;
-  background-color: rgba(22,22,22,1);
-  height: 20vh;
+  height: 80vh;
+  background-color: rgba(33,33,33,1);
   margin: 0px;
-  margin-top: 20vh;
+  padding-top: 2.5%;
+}
+
+.CONL {
+  width: 7.5%;
+  margin-top: 5%;
+  z-index: 555;
+}
+
+.CDI {
+  width: 100%;
+}
+
+.ACR {
+  width: 100%;
+  background-color: rgba(9,255,120,1);
+  margin: 0px;
 }
 
 
@@ -440,12 +477,14 @@ text-align: center;
 
 @media only screen and (max-width: 1150px) { /*1150px*/
 
-
+.Contact-Div {
+  height: 40vh;
+}
 
 .SideMenu {
 width: 100%;
 height: 100%;
-background-color: rgba(52,53,221, 1.0);
+background-color: rgba(9,255,120, 1.0);
 position: fixed;
 top: 0;
 right: -100%;
@@ -473,7 +512,7 @@ display: none;
   height: 12%;
   font-size: clamp(16px, 24px, 32px);
   background-color: rgba(0, 0, 0, 0);
-  color: white;
+  color: black;
   border-style: none;
 }
 
@@ -555,10 +594,9 @@ margin-top: 50px;
 .TC {
   width: 20vw;
   height: 20vw;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100px;
-  max-height: 100px;
+}
+.TCT {
+  line-height: 20vw;
 }
 .coursestxt {
     font-size: 8vw;
