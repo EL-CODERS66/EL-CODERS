@@ -3,8 +3,8 @@
 
  <head> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="Index_Style.css">
   <link rel="stylesheet" href="Acount_Style.css">
+  <link rel="stylesheet" href="Index_Style.css">
   <meta charset="UTF-8"> 
   <title>EL-CODERS</title> 
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
@@ -20,13 +20,13 @@
 
 
 <div class="SideMenu" id="SideMenu">
-  <img class="SMlogo" src="X.png" id="SMEB"  onclick="OpenMenu()">
+  <img class="SMlogo" src="https://i.postimg.cc/d3KxrFMT/image-1.png" id="SMEB"  onclick="OpenMenu()">
    <a href="#CourseText" onclick="OpenMenu()"><button class="SMC" style="font-family: 'Cairo', sans-serif;">الكورسات</button></a>
    <a href="#ImportanceOfCoding" onclick="OpenMenu()"><button class="SMC" style="font-family: 'Cairo', sans-serif;">اهمية البرمجة</button></a> <br>
    <a href="https://www.facebook.com/profile.php?id=61555485401667"><button class="SMC" style="font-family: 'Cairo', sans-serif;">صفحة الفيسبوك</button></a> <br>
-   <a href="#SigninAndSignup" onclick="OpenMenu()"><button class="SMC" style="font-family: 'Cairo', sans-serif;">تواصل معنا</button></a> <br>
+   <a href="#Subscribe" onclick="OpenMenu()"><button class="SMC" style="font-family: 'Cairo', sans-serif;">تواصل معنا</button></a> <br>
    <a href="#SigninAndSignup" onclick="OpenMenu()"><button class="SMC" style="font-family: 'Cairo', sans-serif;">تسجل الدخول</button></a>
-   <a href="#SigninAndSignup" onclick="OpenMenu()"><button class="SMC" style="font-family: 'Cairo', sans-serif;">اشترك الان</button></a> 
+   <a href="#Subscribe" onclick="OpenMenu()"><button class="SMC" style="font-family: 'Cairo', sans-serif;">اشترك الان</button></a> 
 </div>
 <div class="overlayer" id="overlayer"></div>
 
@@ -35,15 +35,15 @@
 <div class="Main"></div> 
   <div class="upper">
    <nav class="nav"> 
-    <img class="logo" src="https://i.postimg.cc/Qd4pVjNz/IMG-20240120-205146.png"> 
-    <img class="menu" src="https://i.postimg.cc/t4GjCHN0/menu.png" id="Menuicon"> 
+    <img class="logo" src="https://i.postimg.cc/nhLLbbsx/image-1.png"> 
+    <img class="menu" src="https://i.postimg.cc/HLvmwV38/image.png" id="Menuicon"> 
    </nav> 
    <h1 class="maintxt" style="font-family: 'Cairo', sans-serif;">أطلق العنان <br>لإمكانيات البرمجة</h1> 
   
    <div class="buttondiv">
     <a href="#SigninAndSignup"><button class="login" style="font-family: 'Cairo', sans-serif;">تسجل الدخول</button></a>
     <br>
-    <button class="signup" style="font-family: 'Cairo', sans-serif;">اشترك الان</button> 
+    <a href="#Subscribe"><button class="signup" style="font-family: 'Cairo', sans-serif;">اشترك الان</button></a>
    </div> 
    </div> 
 
@@ -92,27 +92,27 @@
 
    <h3 class="coursestxt" style="font-family: 'Cairo', sans-serif;" id="CourseText">كورساتنا</h3> <br>
 
-     <div class="WhyDiv ">
+  <div class="WhyDiv ">
 
     <div class="WhyBox">
       <div class="TC"><img class="IC" src="WDC.png"></div>
       <h2 class="WDT" style="font-family: 'Cairo', sans-serif;">تطوير المواقع</h2>
       <p class="WDP" style="font-family: 'Cairo', sans-serif;">كورس تطوير المواقع هو برنامج تعليمي شامل يهدف إلى تزويد المشاركين بالمهارات والمعرفة اللازمة لتطوير وبناء مواقع وتطبيقات الويب بشكل احترافي</p>
-      <button class="CourseBtn" style="font-family: 'Cairo', sans-serif;">اشترك الان</button> 
+      <a href="#Subscribe"><button class="CourseBtn" style="font-family: 'Cairo', sans-serif;">اشترك الان</button></a>
     </div>
 
     <div class="WhyBox">
       <div class="TC"><img class="IC" src="PC.png"></div>
       <h2 class="WDT" style="font-family: 'Cairo', sans-serif;">البرمجة</h2>
       <p class="WDP" style="font-family: 'Cairo', sans-serif;">كورس برمجة يقدم تجربة تعلم ممتعة وتفاعلية، يركز على تنمية مهارات البرمجة بشكل بسيط ومبسط. يتيح للأطفال فهم مفاهيم البرمجة</p>
-      <button class="CourseBtn" style="font-family: 'Cairo', sans-serif;">اشترك الان</button> 
+      <a href="#Subscribe"><button class="CourseBtn" style="font-family: 'Cairo', sans-serif;">اشترك الان</button></a>
     </div>
 
     <div class="WhyBox">
       <div class="TC"><img class="IC" src="Chess.png"></div>
       <h2 class="WDT" style="font-family: 'Cairo', sans-serif;">الشطرنج</h2>
       <p class="WDP" style="font-family: 'Cairo', sans-serif;">كورس الشطرنج  يهدف إلى تعليم اللاعبين كيفية لعب والاستمتاع بلعبة الشطرنج, يغطي الكورس جميع جوانب اللعبة من القواعد الأساسية</p>
-      <button class="CourseBtn" style="font-family: 'Cairo', sans-serif;">اشترك الان</button> 
+      <a href="#Subscribe"><button class="CourseBtn" style="font-family: 'Cairo', sans-serif;">اشترك الان</button></a>
     </div>
 
 
@@ -124,25 +124,41 @@
 
 <hr>
 
+
+
+
+  
+
+
+<hr>
+
 <div style="width: 100%;display: flex;justify-content: center;align-items: center;text-align: center;" id="SigninAndSignup">
 <div class="container" id="container">
   <div class="form-container sign-in-container">
-    <form action="" class="SignandSignUpInform">
-      <h1 style="font-family: 'Cairo', sans-serif;">تسجيل الدخول</h1>
+    <div class="SignandSignUpInform">
+      <h1 style="font-family: 'Cairo', sans-serif;color: rgba(255,255,255,1);">تسجيل الدخول</h1>
       <input id="PhoneInput" maxlength="11" type="Phone" placeholder="رقم التلفون" style="font-family: 'Cairo', sans-serif; text-align: right;" class="FormInput">
       <input id="PasswordInput" type="password" placeholder="الرقم السري" style="font-family: 'Cairo', sans-serif; text-align: right;" class="FormInput">
-      <button id="LoginButton" style="font-family: 'Cairo', sans-serif; margin-top: 10%;" class="FormButton">سجل الدخول</button>
-    </form>
+      <a href="#SigninAndSignup" style="z-index: 777;width: 100%;"><button id="LoginButton" style="font-family: 'Cairo', sans-serif; margin-top: 10%;" class="FormButton">سجل الدخول</button></a>
+      <a href="#Subscribe" style="z-index: 777;width: 100%;"><button id="LoginButton" style="font-family: 'Cairo', sans-serif;" class="FormButton2">ليس لديك حساب ؟</button></a>
+    </div>
   </div>
 </div>
 </div>
 
 
-
-
-<div class="Contacts-Div">
-  -
+<div class="Contact-Div" style="font-family: 'Cairo', sans-serif; margin-top: 10%;" id="Subscribe">
+  <h2 class="coursestxt" style="line-height: 11vh;">للاشتراك او الاستفسار <br> تواصل معنا</h2>
+  <div style="display:flex;justify-content: space-evenly;">
+    <a href="https://www.facebook.com/profile.php?id=61555485401667" class="CONL"><img src="facebook.png" class="CDI"></a>
+    <a href="" class="CONL"><img src="whatsapp.png" class="CDI"></a>
+    <a href="https://m.me/EL-Coders" class="CONL"><img src="messenger.png" class="CDI"></a>
+  </div>
 </div>
+
+<h3 class="ACR" style="font-family: 'Cairo', sans-serif;">
+  EL-CODERS © جميع الحقوق محفوظة
+</h3>
 
 
     </div>
