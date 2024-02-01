@@ -5,15 +5,7 @@
 html {
   scroll-behavior: smooth;
 }
-::-webkit-scrollbar {
-  width: 0.5vw;
-  background-color: black;
-  color: black;
-}
-::-webkit-scrollbar-thumb {
-  background-color: rgba(52,53,221,1);
-  color:  rgba(52,53,221,1);
-}
+
 body {
   text-align: center;
   align-items: center;
@@ -48,7 +40,7 @@ body {
 .ACT {
   font-family: sans-serif;
   width: 100%;
-  text-align: centera;
+  text-align: center;
   font-size: 7.5vh;
   margin-bottom: 5vh;
 }
@@ -72,6 +64,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 1vh;
+  z-index: 9999;
 }
 .AC:hover {
   background-color: rgba(39, 48, 189, 1.0);
@@ -97,8 +90,64 @@ body {
 
 
 
+/*----------------- LESSON PAGE --------------------*/
+
+.LPEB {
+  height: 100%;
+  margin-top: 0px;
+  z-index: 1002;
+}
+
+.LPT {
+  width: 100%;
+  text-align: center;
+  font-size: 5vh;
+  line-height: 10vh;
+  color: white;
+  position: absolute;
+  left: auto;
+  right: auto;
+}
+
+.EMBADDISABLE {
+    width: 100%;
+    height: 10%;
+    background-color: rgba(0, 0, 0, 0.0);
+    position: absolute;
+    margin-top: -40%;
+    z-index: 1000;
+}
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 1150px) { /*1150px*/
+
+.VideoDisplayer {
+    width: 90vw;
+    height: 50vw;
+    position: fixed;
+    left: 5vw;
+    right: 5vw;
+    top: auto;
+    bottom: auto;
+    top: 35vh;
+}
+
+.ACT {
+  font-size: 6vh;
+}
+.AC {
+  width: 84%;
+}
+
 
 
 
